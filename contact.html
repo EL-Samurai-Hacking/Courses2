@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تواصل معنا - EL Samurai</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .contact-methods {
+      list-style: none;
+      padding: 0;
+    }
+
+    .contact-methods li {
+      margin: 20px 0;
+    }
+
+    .contact-methods a {
+      display: inline-block;
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 40px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    @keyframes pulse-whatsapp {
+      0%   { background-color: #0ff; }
+      50%  { background-color: #f0f; }
+      100% { background-color: #ff0; }
+    }
+
+    .contact-methods a.whatsapp {
+      animation: pulse-whatsapp 5s infinite;
+    }
+
+    @keyframes pulse-email {
+      0%   { background-color: #0ff; }
+      50%  { background-color: #f0f; }
+      100% { background-color: #ff0; }
+    }
+
+    .contact-methods a.email {
+      animation: pulse-email 5s infinite;
+    }
+
+    @keyframes pulse-telegram {
+      0%   { background-color: #0ff; }
+      50%  { background-color: #f0f; }
+      100% { background-color: #ff0; }
+    }
+
+    .contact-methods a.telegram {
+      animation: pulse-telegram 5s infinite;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">📞 EL Samurai</div>
+      <ul>
+        <li><a href="main.html">الرئيسية</a></li>
+        <li><a href="courses/info-security.html">أمن المعلومات</a></li>
+        <li><a href="courses/kali-linux.html">كالي لينكس</a></li>
+        <li><a href="courses/hacking-devices.html">اختراق الأجهزة</a></li>
+        <li><a href="courses/web-hacking.html">اختراق المواقع</a></li>
+        <li><a href="courses/network-hacking.html">اختراق الشبكات</a></li>
+        <li><a href="courses/php-course.html">تعلم PHP</a></li>
+        <li><a href="courses/cpp-course.html">تعلم ++C</a></li>
+        <li><a href="contact.html" class="active">تواصل معنا</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-section">
+    <section class="contact-box">
+      <h1>📬 تواصل معنا</h1>
+      <p>إذا كان لديك أي استفسار أو طلب خاص، لا تتردد في التواصل معنا عبر الوسائل التالية:</p>
+
+      <ul class="contact-methods">
+        <li>💬 واتساب: <a href="https://wa.me/994405230548" target="_blank" class="whatsapp">اضغط هنا للدردشة</a></li>
+        <li>📧 البريد الإلكتروني: <a href="mailto:ba754633a25ac21c847@echo.tax" class="email">اضغط هنا للدردشة</a></li>
+        <li>📱 تيليجرام: <a href="https://t.me/VTlL99" target="_blank" class="telegram">اضغط هنا للدردشة</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
